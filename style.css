@@ -1,0 +1,10 @@
+:root {
+	--logo-font: 'Lobster', cursive;
+	--title-font: 'Poppins', sans-serif;
+	--text-font: 'Ubuntu', sans-serif;
+	--bg-color: #fcfeff;
+	--accent-color: #1a8029;
+	--text-color: #231f20;
+	--cs-red: #db2b39;
+	--cs-gray: #231f20;
+}
