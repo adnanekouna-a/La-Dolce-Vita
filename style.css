@@ -92,3 +92,20 @@ body {
 	background-color: var(--cs-red);
 	height: 0.5rem;
 }
+
+#unfinished-disclaimer {
+	position: fixed;
+	bottom: 0;
+	height: 1.5rem;
+	width: 100%;
+	background-color: var(--accent-color);
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#unfinished-disclaimer > p {
+	color: var(--bg-color);
+	font-family: var(--text-font);
+	padding: 0.25rem;
+}
