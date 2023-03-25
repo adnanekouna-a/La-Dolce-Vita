@@ -1,0 +1,30 @@
+/* Variable */
+:root {
+	--logo-font: 'Lobster', cursive;
+	--title-font: 'Poppins', sans-serif;
+	--text-font: 'Ubuntu', sans-serif;
+	--bg-color: #fcfeff;
+	--accent-color: #1a8029;
+	--text-color: #231f20;
+	--cs-red: #db2b39;
+	--cs-gray: #231f20;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	padding: 2.5rem 5rem 0 5rem;
+	gap: 5rem;
+	align-items: center;
+}
+
+#about-us-img {
+	height: 750px;
+}
+
+.about-us-text {
+	font-family: var(--title-font);
+	color: var(--text-color);
+	font-size: 1.45rem;
+	padding-bottom: 1rem;
+}
