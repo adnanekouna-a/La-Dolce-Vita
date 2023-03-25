@@ -46,17 +46,6 @@
 	transition: all 0.35s ease-in-out;
 }
 
-#unfinished-disclaimer {
-	position: fixed;
-	bottom: 0;
-	height: 1.5rem;
-	width: 100%;
-	background-color: var(--accent-color);
-	margin-bottom: 0;
-	display: flex;
-	justify-content: center;
-}
-
 #hero-btn:hover {
 	background-color: var(--accent-color);
 	color: var(--bg-color);

@@ -151,3 +151,14 @@ body {
 	font-family: var(--text-font);
 	padding: 0.25rem;
 }
+
+#unfinished-disclaimer {
+	position: fixed;
+	bottom: 0;
+	height: 1.75rem;
+	width: 100%;
+	background-color: var(--accent-color);
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+}
