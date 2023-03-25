@@ -1,3 +1,7 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Ubuntu:wght@300;400&display=swap');
+
+/* Variable */
 :root {
 	--logo-font: 'Lobster', cursive;
 	--title-font: 'Poppins', sans-serif;
