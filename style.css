@@ -93,6 +93,53 @@ body {
 	height: 0.5rem;
 }
 
+#hero-bg > img {
+	width: 100%;
+	height: calc(100vh - 111px);
+	object-fit: cover;
+	filter: brightness(60%) blur(6.5px);
+}
+
+#hero-content {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#hero-title {
+	font-family: var(--title-font);
+	font-size: 2.5rem;
+	text-align: center;
+	color: var(--bg-color);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+	padding-bottom: 1rem;
+}
+
+#hero-text {
+	font-family: var(--text-font);
+	font-size: 1.25rem;
+	text-align: center;
+	color: var(--bg-color);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+	padding-bottom: 1.5rem;
+}
+
+#call-to-action {
+	font-family: var(--title-font);
+	font-size: 1.5rem;
+	background-color: var(--accent-color);
+	color: var(--bg-color);
+	text-decoration: none;
+	padding: 1rem;
+	border-radius: 10px;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
 #unfinished-disclaimer {
 	position: fixed;
 	bottom: 0;
